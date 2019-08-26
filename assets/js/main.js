@@ -11,8 +11,17 @@
 
   $ = $ && $.hasOwnProperty('default') ? $['default'] : $;
 
-  
-  
+  /**
+   * --------------------------------------------------------------------------
+   * Bootstrap (v4.3.1): util.js
+   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+   * --------------------------------------------------------------------------
+   */
+  /**
+   * ------------------------------------------------------------------------
+   * Private TransitionEnd Helpers
+   * ------------------------------------------------------------------------
+   */
 
   var TRANSITION_END = 'transitionend';
   var MAX_UID = 1000000;
@@ -55,7 +64,11 @@
     $.fn.emulateTransitionEnd = transitionEndEmulator;
     $.event.special[Util.TRANSITION_END] = getSpecialTransitionEndEvent();
   }
-  
+  /**
+   * --------------------------------------------------------------------------
+   * Public Util Api
+   * --------------------------------------------------------------------------
+   */
 
 
   var Util = {
@@ -221,7 +234,11 @@
     return target;
   }
 
-  
+  /**
+   * ------------------------------------------------------------------------
+   * Constants
+   * ------------------------------------------------------------------------
+   */
 
   var NAME = 'collapse';
   var VERSION = '4.3.1';
@@ -257,12 +274,16 @@
   var Selector = {
     ACTIVES: '.show, .collapsing',
     DATA_TOGGLE: '[data-toggle="collapse"]'
-    
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
 
   };
 
   var Collapse =
-  
+  /*#__PURE__*/
   function () {
     function Collapse(element, config) {
       this._isTransitioning = false;
