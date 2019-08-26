@@ -6805,9 +6805,9 @@ details summary::-webkit-details-marker {
 }
 
 .index-page__start {
-    background-image: url(../img/icons/Screenshot_5.png), -webkit-radial-gradient(#eaf5ff, #023b6f);
-    background-image: url(../img/icons/Screenshot_5.png), -o-radial-gradient(#eaf5ff, #023b6f);
-    background-image: url(../img/icons/Screenshot_5.png), radial-gradient(#eaf5ff, #023b6f);
+    background-image: url(../img/Screenshot_5.png), -webkit-radial-gradient(#eaf5ff, #023b6f);
+    background-image: url(../img/Screenshot_5.png), -o-radial-gradient(#eaf5ff, #023b6f);
+    background-image: url(../img/Screenshot_5.png), radial-gradient(#eaf5ff, #023b6f);
     background-position: bottom 200px right 20px, center center;
     background-repeat: no-repeat;
     background-size: 700px, contain;
@@ -6860,7 +6860,7 @@ details summary::-webkit-details-marker {
 
 .fstlook {
     padding-top: 20px;
-    background: url("../img/icons/plash.png");
+    background: url("../img/plash.png");
     background-size: contain;
 }
 
@@ -7569,7 +7569,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
 }
 
 .clip-first {
-    background: url("../img/icons/uz02.png"), #efb600;
+    background: url("../img/uz02.png"), #efb600;
     background-size: cover;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 100% 0%, 98% 101%, 0 96%);
@@ -7605,12 +7605,12 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: url(../img/icons/obl.png);
+    background: url(../img/obl.png);
     background-size: cover;
 }
 
 .clip-second {
-    background: url("../img/icons/uz04.png"), #c3297f;
+    background: url("../img/uz04.png"), #c3297f;
     background-size: cover;
     height: 100%;
     max-width: 100%;
@@ -7646,7 +7646,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: url(../img/icons/obl2.png);
+    background: url(../img/obl2.png);
     background-size: cover;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -7654,7 +7654,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
 }
 
 .clip-third {
-    background: url("../img/icons/uz02.png"), #0185d0;
+    background: url("../img/uz02.png"), #0185d0;
     background-size: cover;
     height: 100%;
     -webkit-clip-path: polygon(2% 0, 100% 0%, 103% 100%, 0 98%);
@@ -7687,12 +7687,12 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: url(../img/icons/obl3.png);
+    background: url(../img/obl3.png);
     background-size: cover;
 }
 
 .clip-fourth {
-    background: url("../img/icons/uz08.png"), #0094ac;
+    background: url("../img/uz08.png"), #0094ac;
     background-size: cover;
     height: 100%;
     max-width: 100%;
@@ -7729,13 +7729,13 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: url(../img/icons/obl5.png);
+    background: url(../img/obl5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .clip-fifth {
-    background: url("../img/icons/uz04.png"), #efb800;
+    background: url("../img/uz04.png"), #efb800;
     background-size: contain;
     height: 100%;
     background-repeat: no-repeat;
@@ -7770,7 +7770,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: url(../img/icons/obl4.png);
+    background: url(../img/obl4.png);
     background-size: cover;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -7778,7 +7778,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
 }
 
 .clip-sixth {
-    background: url("../img/icons/uz04.png"), #d7524c;
+    background: url("../img/uz04.png"), #d7524c;
     background-size: cover;
     height: 100%;
     max-width: 100%;
@@ -7811,7 +7811,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: url(../img/icons/obl8.png);
+    background: url(../img/obl8.png);
     background-size: cover;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -7819,7 +7819,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
 }
 
 .clip-seventh {
-    background: url("../img/icons/uz07.png"), #ff6623;
+    background: url("../img/uz07.png"), #ff6623;
     background-size: contain;
     height: 100%;
     max-width: 100%;
@@ -7852,7 +7852,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: url(../img/icons/obl6.png);
+    background: url(../img/obl6.png);
     background-size: cover;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -7985,7 +7985,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     margin: 0 1%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
-    background: url(../img/icons/uz04.png), #efb800;
+    background: url(../img/uz04.png), #efb800;
     background-size: contain;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8006,7 +8006,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     height: 50%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 89%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 89%, 0 100%);
-    background: url(../img/icons/uz04.png), #c3297f;
+    background: url(../img/uz04.png), #c3297f;
     background-size: contain;
     background-position: center center;
     display: -webkit-box;
@@ -8030,7 +8030,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     background-position: center center;
     -webkit-clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
-    background: url(../img/icons/uz02.png), #0185d0;
+    background: url(../img/uz02.png), #0185d0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
