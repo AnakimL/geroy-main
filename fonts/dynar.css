@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DynarShadowC';
+    src: url('DynarShadowC.woff2') format('woff2'),
+        url('DynarShadowC.woff') format('woff'),
+        url('DynarShadowC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

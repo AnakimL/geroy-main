@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Orchidea Pro';
+    src: url('OrchideaPro-Regular.woff2') format('woff2'),
+        url('OrchideaPro-Regular.woff') format('woff'),
+        url('OrchideaPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orchidea Pro';
+    src: url('OrchideaPro-Bold.woff2') format('woff2'),
+        url('OrchideaPro-Bold.woff') format('woff'),
+        url('OrchideaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orchidea Pro Bk';
+    src: url('OrchideaPro-Black.woff2') format('woff2'),
+        url('OrchideaPro-Black.woff') format('woff'),
+        url('OrchideaPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orchidea Pro Md';
+    src: url('OrchideaPro-Medium.woff2') format('woff2'),
+        url('OrchideaPro-Medium.woff') format('woff'),
+        url('OrchideaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
