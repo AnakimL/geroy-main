@@ -248,6 +248,24 @@
                             <footer class="blockquote-footer">Товарищ Бэтмен <span><img src="assets/img/2819770.svg" height="20" alt=""></span></footer>
                         </blockquote>
                     </div>
+                    
+                    <div class="col-12">
+                        
+                        <div class="quote-slider owl-carousel owl-theme">
+                            <div class="quote-item">
+                                <img src="https://picsum.photos/300/200?grayscale" alt="">
+                            </div>
+                            <div class="quote-item">
+                                <img src="https://picsum.photos/300/200?grayscale" alt="">
+                            </div>
+                            <div class="quote-item">
+                                <img src="https://picsum.photos/300/200?grayscale" alt="">
+                            </div>
+                            <div class="quote-item">
+                                <img src="https://picsum.photos/300/200?grayscale" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -717,6 +735,14 @@
 
         });
 
+        $('.quote-slider').owlCarousel({
+            items:3,
+            dots: true,
+            autoplay: false,
+            nav: true,
+            dots: false,
+            margin:10
+        });
 
         $('.indexPage').owlCarousel({
             loop:true,
