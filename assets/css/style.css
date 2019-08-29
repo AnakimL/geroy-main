@@ -11395,6 +11395,31 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     min-height: 370px;
 }
 
+.index-quiz .quiz__start {
+    border-radius: 20px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #fcf9e8;
+    z-index: 1000;
+    padding-top: 40px;
+}
+
+.index-quiz .quiz__start p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.index-quiz .quiz__start a {
+    font-size: 30px;
+    background: #366a5d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .index-quiz .question {
     font-size: 30px;
     margin-bottom: 40px;
@@ -11561,6 +11586,7 @@ body .owl-theme .owl-dots .owl-dot:nth-child(3) span {
     -webkit-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
     transition: opacity 0.5s;
+    min-height: 370px;
 }
 
 .index-quiz .active-slide {

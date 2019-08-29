@@ -406,24 +406,25 @@
         </div>
 
     </div>
-
     <div class="index-quiz">
-
         <div class="container">
             <div class="row">
 
                 <div class="col-12 js-hide">
-
-
+                    <div id="quiz__start" class="quiz__start">
+                        <p>Получи скидку в 10% при ответа на все вопросы в квизе</p>
+                       <p><a class="quiz__go" href="">Начать</a></p>
+                    </div>
                     <div class="quiz-container">
-                        <div id="quiz"></div>
+
+                        <div id="quiz">
+
+                        </div>
                     </div>
                     <div class="quiz-btns">
                         <button class="quiz-btn" id="previous">Назад</button>
                         <button class="quiz-btn" id="next">Далее</button>
-                        <button class="quiz-btn" id="submit">Расчитать стоимость мероприятия</button>
-                    </div>
-
+                        <button class="quiz-btn" id="submit">Расчитать стоимость мероприятия</button></div>
                 </div>
                 <div class="col-12 js-show">
                     <div id="results" class="results">
@@ -450,6 +451,8 @@
                     </div>
 
                 </div>
+
+
             </div>
         </div>
 
@@ -783,6 +786,12 @@
 
 
     (function() {
+
+        $('.quiz__go').click(function (e) {
+            e.preventDefault();
+            $('#quiz__start').hide();
+        })
+
         const myQuestions = [
             {
                 question: "Для кого нужно организовать праздник?",
@@ -866,13 +875,16 @@
                 // we'll want to store the list of answer choices
                 const answers = [];
                 var progWidth = (0.25 * (questionNumber+1));
-                console.log(progWidth)
+                console.log(progWidth);
+
 
                 // and for each available answer...
                 for (letter in currentQuestion.answers) {
+                    console.log(questionNumber + " cut")
                     var progWidth = (0.25 * (questionNumber+1));
                     console.log(progWidth)
                     // ...add an HTML radio button
+
                     answers.push(
                         `<label>
                 <img class="quiz_pic" src="${currentQuestion.pictures[letter]}" alt="">
